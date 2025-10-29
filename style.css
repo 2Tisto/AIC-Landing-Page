@@ -1,0 +1,280 @@
+html, body
+{
+    scrollbar-color: #080b0f96 #228677b2;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    color: aliceblue;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section
+{
+    text-align: center;
+}
+
+section h1
+{
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-variant:small-caps;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: #2AF8E8;
+}
+
+section p
+{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.Hero
+{
+    padding: 45px;
+}
+
+header
+{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2AF8E818;
+}
+
+button
+{
+    background-color: transparent;
+    font-size: 16px;
+    color: #2AF8E8;
+    border-radius: 10px;
+    border-color: #2AF8E8;
+    padding: 10px;
+    width: 150px;
+}
+
+button:hover
+{
+    background-color: #2af8e76b;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+nav a:hover
+{
+    color: #2AF8E8;
+    font-weight: bold;
+}
+
+.mainSection
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title
+{
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: #2AF8E8;
+}
+
+.ValeurElement, .ProjetElement
+{
+    background-color: #2af8e713;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 0px 15px 15px 15px ;
+    font-size: 20px;
+    width: 200px;
+}
+
+.ValeurElement:hover, .ProjetElement:hover
+{
+    border-top: 4px solid #2AF8E8;
+    padding-bottom: 11px;
+}
+
+.mainSection span
+{
+    letter-spacing: 3px;
+    text-decoration: underline #2AF8E8;
+    text-underline-offset: 5px;
+}
+
+span
+{
+    line-height: 50px;
+}
+
+.Contact
+{
+    background-color: #2af8e713;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.flotteur
+{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #2AF8E8;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+input, textarea
+{
+    margin: auto;
+    background-color: transparent;
+    border-color: #2AF8E8;
+    color: #2AF8E8;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 0px 10px 10px;
+    border-radius: 15px;
+}
+
+input:focus +.flotteur, textarea:focus +.flotteur,
+input:not(:placeholder-shown) +.flotteur, textarea:not(:placeholder-shown) +.flotteur
+{
+    top: -8px;
+    left: 20px;
+    background-color: #fff;
+    border-color: #2AF8E8;
+    text-shadow: none;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+textarea
+{
+    overflow: auto;
+    scrollbar-color: #2AF8E8 #2af8e73f;
+    height: 200px;
+    resize: none;
+}
+
+input[type="submit"]
+{
+    color: #2AF8E8;
+    margin: auto;
+    width: 200px;
+}
+
+input[type="submit"]:hover
+{
+    background-color: #2af8e76b;
+}
+
+.placeholder-flotant
+{
+    margin: 0 30px 0 30px;
+    /*background-color: #7a848d;*/
+    position: relative;
+    top: 0;
+}
+
+.Contact form
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 20px;
+}
+
+.video-bg
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.image
+{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.image div {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: all 0.3s ease;
+}
+
+.youtube
+{
+    background-image: url("images/youtube.png");
+}
+
+.instagram
+{
+    background-image: url("images/instagram.png");
+}
+
+.linkedin
+{
+    background-image: url("images/linkedin.png");
+}
+
+.youtube:hover
+{
+    background-image: url("images/youtube hover.png");
+}
+
+.instagram:hover
+{
+    background-image: url("images/instagram hover.png");
+}
+
+.linkedin:hover
+{
+    background-image: url("images/linkedin hover.png");
+}
+
+footer
+{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #2AF8E818;
+    font-size: 20px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+}

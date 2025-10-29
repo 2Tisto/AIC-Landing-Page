@@ -1,0 +1,113 @@
+💻 Jour 1 – Challenge : “AIC Landing Page”
+
+🎯 Objectif du jour
+
+Créer une page d’accueil officielle pour Ambitious & Innovation Center (AIC), en HTML + CSS pur, sans frameworks, avec un code clair, bien indenté et commenté.
+Tu dois te comporter comme si c’était une vraie page d’entreprise.
+
+🧩 Contenu obligatoire de la page
+
+Ta page doit contenir les sections suivantes :
+
+1. Header
+
+Logo ou nom du groupe (AIC)
+
+Menu de navigation (Accueil | Projets | Valeurs | Contact)
+
+
+
+2. Section “Hero” (bannière principale)
+
+Un grand titre (ex : “Construire avec discipline. Innover avec ambition.”)
+
+Une courte phrase de présentation du groupe
+
+Un bouton d’appel à l’action : “Rejoindre l’AIC” ou “Découvrir nos projets”
+
+
+3. Section “Nos valeurs”
+
+3 ou 4 blocs avec icônes ou titres : Discipline | Innovation | Travail | Impact
+
+Chaque valeur a une courte description (2 lignes max)
+
+
+4. Section “Nos projets”
+
+Présente 2–3 projets imaginaires ou à venir (CyberShield, TekBot, AI Hub, etc.)
+
+
+5. Section “Contact”
+
+Un petit formulaire avec Nom, Email, Message et un bouton “Envoyer”
+
+6. Footer
+
+Mention du groupe (© 2025 Ambitious & Innovation Center)
+
+Liens réseaux sociaux fictifs
+
+
+🧠 Compétences visées
+
+Maîtrise des balises HTML de base (<header>, <section>, <footer>, <nav>, <form>, etc.)
+
+Organisation logique du code
+
+Utilisation du CSS : couleurs, marges, alignement, typographie
+
+Responsabilité visuelle (page lisible sur mobile et PC)
+
+Rigueur : indentation, commentaires, nommage cohérent
+
+🧰 Ressources autorisées
+
+w3schools.com/html
+
+w3schools.com/css
+
+Google Fonts pour les polices
+
+Couleurs : bleu foncé (#003366), blanc, gris clair, et une touche dorée (#d4af37) pour le style AIC
+
+
+🚫 Erreurs à éviter
+
+Code non indenté ou sans commentaires
+
+Trop d’effets inutiles (le design doit rester propre)
+
+Texte sans cohérence ou sections manquantes
+
+Aucune séparation entre le HTML et le CSS
+
+📦 Livrable attendu
+
+1. Un dossier nommé AIC_LandingPage contenant :
+
+index.html
+
+style.css
+
+un dossier images/ (si tu utilises des images)
+
+
+
+2. Le lien GitHub, CodePen ou Netlify à envoyer au groupe avant minuit.
+
+
+⚙️ Bonus (pour les plus rapides)
+
+Ajoute un petit effet hover sur les boutons ou les valeurs.
+
+Utilise un dégradé discret sur la bannière (hero section).
+
+Ajoute une animation légère à l’apparition du texte.
+
+
+✨
+
+> “Aujourd’hui, on ne code pas pour impressionner.
+On code pour apprendre la rigueur.
+Chaque ligne doit refléter la discipline AIC.”

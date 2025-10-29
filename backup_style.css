@@ -1,0 +1,105 @@
+html, body
+{
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body
+{
+    background-color: #d6d6c8
+}
+
+header
+{
+    background-color: #003366;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    color: #d4af37;
+}
+
+section
+{
+    text-align: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+}
+
+.mainSection
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.ValeurElement, .ProjetElement
+{
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 250px;
+}
+
+.mainSection span
+{
+    color: #d4af37;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.title
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #022547;
+    text-shadow: #003366;
+}
+
+.placeholder-flotant
+{
+    position: relative;
+    margin: 20px 0;
+}
+input
+{
+    width: 100%;
+}
+
+.flotteur
+{
+    position: absolute; /* Positionné par rapport au conteneur */
+    left: 10px; /* Décalé légèrement à gauche */
+    top: 16px; /* Position initiale au milieu du champ */
+    color: #aaa; /* Couleur grise claire */
+    font-size: 16px;
+    pointer-events: none; /* L'utilisateur ne peut pas cliquer dessus */
+    transition: all 0.2s ease; /* Animation fluide quand il bouge */
+}
+
+textarea
+{
+    resize: none;
+}
+
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+
+footer
+{
+    background-color: #022547;
+    height: 300px;
+}
